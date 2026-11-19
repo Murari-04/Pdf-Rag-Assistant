@@ -366,7 +366,7 @@ st.divider()
 st.markdown(
     """
     <div style="text-align:center; color:gray;">
-        <h4>DocuMind AI</h4>
+        <h4>PDF RAG Assitant</h4>
         <p>General-Purpose PDF Question Answering System</p>
         <p>Python | Streamlit | Google Gemini | LangChain | FAISS</p>
     </div>
