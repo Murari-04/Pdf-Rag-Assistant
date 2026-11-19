@@ -1,0 +1,25 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Uploaded documents
+data/
+uploads/
+
+# FAISS databases
+vectorstore/
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+.DS_Store
