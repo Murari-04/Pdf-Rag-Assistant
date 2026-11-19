@@ -11,7 +11,7 @@ from rag import answer_question
 # ---------------- CONFIGURATION ----------------
 
 st.set_page_config(
-    page_title="DocuMind AI",
+    page_title="PDF RAG Assitant",
     page_icon="📚",
     layout="wide"
 )
@@ -36,7 +36,7 @@ for key, value in defaults.items():
 
 # ---------------- HEADER ----------------
 
-st.title("📚 DocuMind AI")
+st.title("📚 PDF RAG Assistant")
 st.markdown("### Your Intelligent PDF Question-Answering Assistant")
 
 st.write(
